@@ -20,6 +20,14 @@ float divide(int i, int j) {
     return ((float) i / j);  // Explicit type casting to float for decimal results.
 }
 
+double square(double x){
+	return x*x;
+}
+
+double cube(double x){
+	return x*x*x;
+}
+
 int main() {
     int a, b;
     char operation;
